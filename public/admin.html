@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Donut Admin Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Donut Administrator</h1>
+
+        <form id="create-donut-form">
+            <input type="text" id="donut-id" placeholder="ID" required>
+            <input type="text" id="donut-name" placeholder="Name" required>
+            <textarea id="donut-descrip" placeholder="Description" required></textarea>
+            <input type="text" id="donut-price" placeholder="Price" required>
+            <button type="submit" class="create-button">Create a New Donut</button>
+        </form>
+
+        <div id="donut-list"></div>
+    </div>
+
+    <script src="../src/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+
+body {
+    background-color: #343a40;
+}
+h1 {
+    color: #f8f9fa;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+form {
+    width: auto;
+    margin: 0 auto; 
+}
+
+
+form label {
+    text-align: center; 
+    display: block;
+    margin: 10px auto; 
+}
+
+
+input[type="text"],
+input[type="number"],
+textarea,
+button,
+input[type="submit"] {
+    width: 60%; 
+    max-width: 400px; 
+    margin: 10px auto; 
+    display: block;
+}
+
+
+input[type="button"], 
+button {
+    width: 40%;
+    max-width: 200px;
+    margin: 10px auto;
+    display: block;
+}
+
+
+.donut-item {
+    margin-bottom: 20px; 
+}
+
+
+.price,
+.description {
+    text-align: center;
+    display: block;
+}
+
+.donut {
+    border: 1px solid #000; /* Add a border */
+    padding: 10px; /* Add some padding */
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #fff; /* Optional: if you want a different background inside the box */
+}
+
+/* Add a new class for the Create button */
+.create-button {
+    width: 60%; 
+    margin: 10px auto; 
+    display: block;
+}
+
+/* Update the styles for your generic button selector to target only the action buttons */
+button:not(.create-button) {
+    width: 30%;
+    margin: 10px 0 10px 10px; /* This will move the buttons to the left */
+    display: block;
+}
